@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GoogleProjectSubmit</string>
+    <string name="enter_amount_hint">Price</string>
+    <string name="enter_purchase_item_hint">Purchase item</string>
+    <string name="description_hint">Description</string>
+    <string name="title_activity_epens_list">EpensListActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
