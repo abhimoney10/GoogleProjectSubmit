@@ -31,7 +31,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_save.setOnClickListener {
             val expens = saveData()
-            expens?.let { it1 -> mExpenseViewModal.insert(it1) }
+            expens?.let {
+                    it1 -> mExpenseViewModal.insert(it1)
+                finish()
+            }
         }
 
     }
